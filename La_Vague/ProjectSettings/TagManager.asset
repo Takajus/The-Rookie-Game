@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - Immeuble
   - Mouse
-=======
-  - Ground_TV
->>>>>>> 8be112d97db349d3b9bc162b685eb543db299285
+  - DeathTrigger
   layers:
   - Default
   - TransparentFX
@@ -19,8 +16,8 @@ TagManager:
   - UI
   - 
   - 
-  - Ground_TV
-  - Wall_TV
+  - 
+  - 
   - 
   - 
   - 
