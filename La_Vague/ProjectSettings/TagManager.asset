@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground_TV
+  - Building_TV
   layers:
   - Default
   - TransparentFX

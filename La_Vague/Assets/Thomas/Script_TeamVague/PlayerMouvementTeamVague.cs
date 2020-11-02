@@ -6,16 +6,19 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 {
     GamePlayerManagerTeamVague GameManager;
 
+    [Header("Ground Checker")]
+
     public bool isGrounded;
     public Transform groundCheck;
-    public float checkRaduis;
+    public float checkRadius;
     public LayerMask whatIsGround;
 
-    [SerializeField]
+    [Header("Wall Checker")]
 
     public bool isStoped;
     public Transform wallCheck;
-    public float wallCheckRaduis;
+    //public float wallCheckRaduis;
+    public Vector2 wallCheckRadius;
     public LayerMask whatIsStoped;
 
     void Start()
@@ -38,8 +41,8 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 
     private void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRaduis, whatIsGround);
-        isStoped = Physics2D.OverlapCircle(wallCheck.position, wallCheckRaduis, whatIsStoped);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        isStoped = Physics2D.OverlapBox(wallCheck.position, wallCheckRadius, 0.0f, whatIsStoped);
 
     }
 }
