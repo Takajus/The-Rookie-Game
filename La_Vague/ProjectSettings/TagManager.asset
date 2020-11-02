@@ -7,6 +7,7 @@ TagManager:
   - Immeuble
   - Mouse
   - DeathTrigger
+  - Trigger
   layers:
   - Default
   - TransparentFX
