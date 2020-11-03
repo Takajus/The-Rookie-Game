@@ -6,6 +6,7 @@ public class RotateTeamVague : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speed;
+    public ControlToucheTeamVague control;
     void Start()
     {
         
@@ -14,10 +15,10 @@ public class RotateTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.D))
+        if(Input.GetKey(control.down))
         {
             transform.Rotate(0, 0, -speed);
-        }else if(Input.GetKey(KeyCode.Q))
+        }else if(Input.GetKey(control.up))
         {
             transform.Rotate(0, 0, speed);
         }

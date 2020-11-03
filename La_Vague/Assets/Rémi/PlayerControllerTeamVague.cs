@@ -24,7 +24,7 @@ public class PlayerControllerTeamVague : MonoBehaviour
             nbr += 1;
             Move(nbr);
         }
-        else if (Input.GetKeyDown(up))
+        else if (Input.GetKeyDown(down))
         {
             nbr -= 1;
             Move(nbr);
