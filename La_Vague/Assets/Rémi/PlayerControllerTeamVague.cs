@@ -8,8 +8,7 @@ public class PlayerControllerTeamVague : MonoBehaviour
     public List<Transform> tpplayer;
     public int nbr;
     public int nbrmax;
-    public KeyCode up;
-    public KeyCode down;
+    public ControlToucheTeamVague control;
    
     void Start()
     {
@@ -19,12 +18,12 @@ public class PlayerControllerTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(up))
+        if (Input.GetKeyDown(control.up))
         {
             nbr += 1;
             Move(nbr);
         }
-        else if (Input.GetKeyDown(down))
+        else if (Input.GetKeyDown(control.down))
         {
             nbr -= 1;
             Move(nbr);
