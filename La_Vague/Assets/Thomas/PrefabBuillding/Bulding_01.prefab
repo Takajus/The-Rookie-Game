@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7284318022272419697}
   - component: {fileID: 7284318022272419698}
   - component: {fileID: 7284318022272419694}
-  - component: {fileID: 5035337790716487795}
+  - component: {fileID: 5669188787785589431}
   m_Layer: 9
   m_Name: Bulding_01
   m_TagString: Building_TV
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7284318022272419699}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9782486, y: -7.2261677, z: 30.460709}
-  m_LocalScale: {x: 1.941271, y: 8.6278715, z: 0.21569678}
+  m_LocalPosition: {x: 6.424, y: -6.888, z: 30.460709}
+  m_LocalScale: {x: 3.2807887, y: 3.8030193, z: 0.21569678}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6a4b3267b5de5ed499758f5f83315e0f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 22a9efaf01d09664abc5d8a56200a9d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   moveUp: {x: 0, y: 1}
+  transmax: {fileID: 0}
   moveDown: {x: 0, y: -1}
+  transmin: {fileID: 0}
 --- !u!50 &7284318022272419694
 Rigidbody2D:
   serializedVersion: 4
@@ -121,7 +123,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 5
---- !u!61 &5035337790716487795
+--- !u!61 &5669188787785589431
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,16 +136,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 1.422552}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 0.66545457, y: 2.8654544}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.64, y: 0.64}
+  m_Size: {x: 0.64, y: 2.846}
   m_EdgeRadius: 0

@@ -12,9 +12,11 @@ public class GamePlayerManagerTeamVague : MonoBehaviour
     private Vector3 posbuild;
     public build state;
 
+
+
     public void Start()
     {
-        state = build.Replace;   
+        state = build.Replace;
     }
 
     public void Update()
