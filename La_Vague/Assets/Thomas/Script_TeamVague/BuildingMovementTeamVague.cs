@@ -10,6 +10,8 @@ public class BuildingMovementTeamVague : MonoBehaviour
     [Header("moveDown")]
     public Vector2 moveDown;
 
+        
+
     private void Start()
     {
         

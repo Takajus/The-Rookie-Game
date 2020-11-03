@@ -9,6 +9,7 @@ TagManager:
   - DeathTrigger
   - Trigger
   - Mouse
+  - ChangeColor
   layers:
   - Default
   - TransparentFX
