@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground_TV
   - Building_TV
+  - DeathTrigger
+  - Trigger
+  - Mouse
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,7 @@ public class BouleTeamVague : MonoBehaviour
     public GameObject baby;
     public int nbrcrea;
     public Sprite sprite;
+    public GameObject fond;
     void Start()
     {
         
@@ -24,7 +25,7 @@ public class BouleTeamVague : MonoBehaviour
         while (nbrcrea > 0)
         {
             GameObject Baby = Instantiate(baby, transform.position, Quaternion.identity);
-            sprite = GetComponent<SpriteRenderer>().sprite;
+            Baby.GetComponent<SpriteRenderer>().sprite = sprite;
             /*Baby.GetComponent*/
             nbrcrea -= 1;
         }
@@ -35,6 +36,10 @@ public class BouleTeamVague : MonoBehaviour
         if(collision.CompareTag("DeathTrigger"))
         {
             Createbaby();
+        }else if(collision.CompareTag("ChangeColor"))
+        {
+            fond.GetComponent<SpriteRenderer>().sprite = collision.GetComponent<SpriteRenderer>().sprite;
+          
         }
     }
 

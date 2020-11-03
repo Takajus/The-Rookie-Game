@@ -8,7 +8,7 @@ public class EnnemyManagerTeamVague : MonoBehaviour
     public List<GameObject> ennemy;
     public phase state;
     public int rdm;
-    public float resetxvalue;
+    public Transform pos;
     void Start()
     {
         
@@ -34,7 +34,7 @@ public class EnnemyManagerTeamVague : MonoBehaviour
         {
             for (int j = 0; j < ennemy.Count; j++)
             {
-                ennemy[j].transform.position = new Vector3(resetxvalue, ennemy[j].transform.position.y, ennemy[j].transform.position.z);
+                ennemy[j].transform.position = new Vector3(pos.position.x, ennemy[j].transform.position.y, ennemy[j].transform.position.z);
                 ennemy[j].SetActive(true);
             }
             state = phase.Active;
