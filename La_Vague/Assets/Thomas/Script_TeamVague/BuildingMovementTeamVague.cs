@@ -25,7 +25,5 @@ public class BuildingMovementTeamVague : MonoBehaviour
         {
             transform.Translate(moveDown * speed * Time.deltaTime);
         }
-
-
     }
 }

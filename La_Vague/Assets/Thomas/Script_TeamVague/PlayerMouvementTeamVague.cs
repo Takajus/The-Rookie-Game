@@ -32,7 +32,7 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 
     void Update()
     {
-        if(isGrounded == true && isStoped == false)
+        if(isStoped == false)
         {
             transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
         }
