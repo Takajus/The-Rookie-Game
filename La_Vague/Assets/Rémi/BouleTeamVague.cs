@@ -7,6 +7,7 @@ public class BouleTeamVague : MonoBehaviour
     // Start is called before the first frame update
     public GameObject baby;
     public int nbrcrea;
+    public Sprite sprite;
     void Start()
     {
         
@@ -23,7 +24,7 @@ public class BouleTeamVague : MonoBehaviour
         while (nbrcrea > 0)
         {
             GameObject Baby = Instantiate(baby, transform.position, Quaternion.identity);
-            Baby.GetComponent<SpriteRenderer>().sprite = GetComponent<SpriteRenderer>().sprite;
+            sprite = GetComponent<SpriteRenderer>().sprite;
             /*Baby.GetComponent*/
             nbrcrea -= 1;
         }
