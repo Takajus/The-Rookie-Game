@@ -10,6 +10,7 @@ public class StarTeamVague : MonoBehaviour
     public float cd;
     public float postogo;
     public float speed;
+    public DecomptTeamVague dec;
     void Start()
     {
         
@@ -18,6 +19,9 @@ public class StarTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(dec.last<=0)
+        {
+
         if(cd<=0)
         {
             postogo = Random.Range(posmin.position.y, posmax.position.y);
@@ -25,5 +29,6 @@ public class StarTeamVague : MonoBehaviour
         }
         transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, postogo, transform.position.z), speed);
         cd -= Time.deltaTime;
+        }
     }
 }

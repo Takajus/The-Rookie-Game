@@ -11,6 +11,10 @@ public class MiniGameTeamVague : MonoBehaviour
     public ControlToucheTeamVague Control;
     public List<KeyCode> listtouche;
     public int set;
+    public GameObject GameManage;
+    public float TimeMiniGame;
+    public GameObject pref;
+
     void Start()
     {
         
@@ -19,7 +23,12 @@ public class MiniGameTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        TimeMiniGame -= Time.deltaTime;
+        if(TimeMiniGame<=0)
+        {
+            GameManage.GetComponent<GameManagerGlobalTeamVague>().ObsoToMini();
+            Destroy(gameObject);
+        }
     }
 
 

@@ -7,16 +7,21 @@ public class FollowerTeamVague : MonoBehaviour
     // Start is called before the first frame update
     public Rigidbody2D rb;
     public float force;
-    public GameObject target;
+    public ControlToucheTeamVague control;
+    public DecomptTeamVague dec;
     
  
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
+        if(dec.last<=0)
+        {
+            rb.gravityScale = 0.7f;
+        if (Input.GetKeyDown(control.down))
         {
             rb.AddForce(new Vector2(0, force), ForceMode2D.Impulse);
            
+        }
         }
         
 

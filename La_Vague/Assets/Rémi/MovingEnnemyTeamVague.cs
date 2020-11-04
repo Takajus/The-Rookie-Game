@@ -8,6 +8,7 @@ public class MovingEnnemyTeamVague : MonoBehaviour
     public Rigidbody2D rb;
     public float speed;
     public EnnemyManagerTeamVague manage;
+    public DecomptTeamVague dec;
     void Start()
     {
         
@@ -21,7 +22,10 @@ public class MovingEnnemyTeamVague : MonoBehaviour
 
     public void Moving()
     {
+        if(dec.last<=0)
+        {
         rb.velocity = new Vector2(speed, 0);
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

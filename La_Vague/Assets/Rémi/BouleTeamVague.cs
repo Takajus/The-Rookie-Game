@@ -9,6 +9,7 @@ public class BouleTeamVague : MonoBehaviour
     public int nbrcrea;
     public Sprite sprite;
     public GameObject fond;
+    public DecomptTeamVague dec;
     void Start()
     {
         
@@ -17,7 +18,10 @@ public class BouleTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(dec.last<=0)
+        {
+            GetComponent<Rigidbody2D>().gravityScale = 1f;
+        }
     }
 
     public void Createbaby()
