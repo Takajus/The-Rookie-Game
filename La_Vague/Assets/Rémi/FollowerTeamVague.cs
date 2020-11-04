@@ -40,7 +40,7 @@ public class FollowerTeamVague : MonoBehaviour
     {
         if(collision.CompareTag("ChangeColor"))
         {
-
+          GetComponent<SpriteRenderer>().sprite = collision.GetComponent<SpriteRenderer>().sprite;
         }
     }
 

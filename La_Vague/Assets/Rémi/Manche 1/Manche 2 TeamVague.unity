@@ -222,7 +222,7 @@ MonoBehaviour:
   nbr: 0
   counter: 3
   CounterBetween: 5
-  CounterFinManche: 0
+  CounterFinManche: 5
   NextManche: Manche 3 TeamVague
   listTransform:
   - {fileID: 330589911}
