@@ -6,6 +6,7 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> minigames;
+    [HideInInspector]
     public List<GameObject> minigamesobso;
     public bool acti;
     public int NombreDeMiniGames;
@@ -17,6 +18,7 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
     public float CounterFinManche;
     public string NextManche;
     public List<Transform> listTransform;
+    [HideInInspector]
     public List<Transform> listTransformObso;
     void Start()
     {
