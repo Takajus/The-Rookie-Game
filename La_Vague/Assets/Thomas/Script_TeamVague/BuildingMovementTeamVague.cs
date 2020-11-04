@@ -5,12 +5,18 @@ using UnityEngine;
 public class BuildingMovementTeamVague : MonoBehaviour
 {
     public float speed;
+
     [Header("moveUp")]
     public Vector2 moveUp;
     public Transform transmax;
+    public Transform upMax;
+
     [Header("moveDown")]
     public Vector2 moveDown;
     public Transform transmin;
+    public Transform downMin;
+
+    [HideInInspector]
     public Vector3 building3;
 
     private void Start()
@@ -29,16 +35,16 @@ public class BuildingMovementTeamVague : MonoBehaviour
             transform.Translate(moveDown * speed * Time.deltaTime);
         }
 
-        if(transform.position.y >= transmax.position.y)
+        if(transform.position.y >= upMax.position.y)
         {
             building3 = transform.position;
-            building3.y = transmax.position.y;
+            building3.y = upMax.position.y;
             transform.position = building3;
         }
-        else if(transform.position.y <= transmin.position.y)
+        else if(transform.position.y <= downMin.position.y)
         {
             building3 = transform.position;
-            building3.y = transmin.position.y;
+            building3.y = downMin.position.y;
             transform.position = building3;
         }
     }
