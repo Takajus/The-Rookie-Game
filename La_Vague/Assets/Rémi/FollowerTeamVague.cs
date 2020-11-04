@@ -9,6 +9,7 @@ public class FollowerTeamVague : MonoBehaviour
     public float force;
     public ControlToucheTeamVague control;
     public DecomptTeamVague dec;
+    public float gravity;
     
  
     // Update is called once per frame
@@ -16,7 +17,7 @@ public class FollowerTeamVague : MonoBehaviour
     {
         if(dec.last<=0)
         {
-            rb.gravityScale = 0.7f;
+            rb.gravityScale = gravity;
         if (Input.GetKeyDown(control.down))
         {
             rb.AddForce(new Vector2(0, force), ForceMode2D.Impulse);

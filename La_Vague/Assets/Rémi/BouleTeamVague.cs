@@ -10,6 +10,7 @@ public class BouleTeamVague : MonoBehaviour
     public Sprite sprite;
     public GameObject fond;
     public DecomptTeamVague dec;
+    public float gravity;
     void Start()
     {
         
@@ -20,7 +21,7 @@ public class BouleTeamVague : MonoBehaviour
     {
         if(dec.last<=0)
         {
-            GetComponent<Rigidbody2D>().gravityScale = 1f;
+            GetComponent<Rigidbody2D>().gravityScale = gravity;
         }
     }
 
