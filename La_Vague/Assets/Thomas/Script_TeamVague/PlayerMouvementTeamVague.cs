@@ -6,13 +6,6 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 {
     GamePlayerManagerTeamVague GameManager;
 
-    [Header("Ground Checker")]
-
-    public bool isGrounded;
-    public Transform groundCheck;
-    public float checkRadius;
-    public LayerMask whatIsGround;
-
     [Header("Wall Checker")]
 
     public bool isStoped;
@@ -26,13 +19,12 @@ public class PlayerMouvementTeamVague : MonoBehaviour
         GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
         GameManager = gameController.GetComponent<GamePlayerManagerTeamVague>();
 
-        isGrounded = false;
         isStoped = false;
     }
 
     void Update()
     {
-        if(isStoped == false)
+        if(!isStoped)
         {
             transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
         }
@@ -41,8 +33,18 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 
     private void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         isStoped = Physics2D.OverlapBox(wallCheck.position, wallCheckRadius, 0.0f, whatIsStoped);
+    }
 
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        if(other.gameObject.tag == "tag")
+        {
+            isStoped = true;
+        }
+        else
+        {
+            isStoped = false;
+        }
     }
 }
