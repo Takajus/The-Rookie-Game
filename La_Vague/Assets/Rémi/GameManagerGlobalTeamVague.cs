@@ -9,10 +9,12 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
     public List<GameObject> minigamesobso;
     public bool acti;
     public int NombreDeMiniGames;
-    public int nbr;
+    [HideInInspector]
+    public  int nbr;
+    [HideInInspector]
     public float counter;
     public float CounterBetween;
-    public float counterManche;
+    public float CounterFinManche;
     public string NextManche;
     public List<Transform> listTransform;
     public List<Transform> listTransformObso;
@@ -35,14 +37,14 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
       listTransform.Remove(listTransform[0]);
       counter = CounterBetween;
       }
-      if(counterManche<=0)
+      if(CounterFinManche<=0)
         {
             Nextlevel(NextManche);
         }
         counter -= Time.deltaTime;
         if(NombreDeMiniGames<=0)
         {
-        counterManche -= Time.deltaTime;
+            CounterFinManche -= Time.deltaTime;
         }
     }
 

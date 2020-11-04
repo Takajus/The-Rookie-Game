@@ -218,12 +218,12 @@ MonoBehaviour:
   - {fileID: 8145414298756410407, guid: 001b5b48740d9104ca223f5ff9b973a4, type: 3}
   minigamesobso: []
   acti: 0
-  NombreDeMiniGames: 2
+  NombreDeMiniGames: 3
   nbr: 0
   counter: 3
   CounterBetween: 5
   counterManche: 5
-  NextManche: 
+  NextManche: Manche 1 TeamVague
   listTransform:
   - {fileID: 330589911}
   - {fileID: 1426753713}
