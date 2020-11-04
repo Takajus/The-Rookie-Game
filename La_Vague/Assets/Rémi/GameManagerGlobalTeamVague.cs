@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GameManagerGlobalTeamVague : MonoBehaviour
 {
     // Start is called before the first frame update
     public List<GameObject> minigames;
     public List<GameObject> minigamesobso;
     public bool acti;
+    public int NombreDeMiniGames;
     public int nbr;
     public float counter;
     public float CounterBetween;
+    public float counterManche;
+    public string NextManche;
     public List<Transform> listTransform;
     public List<Transform> listTransformObso;
     void Start()
@@ -21,20 +24,32 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(counter<=0 && minigames.Count!=0 && acti==false)
+      if(counter<=0 && minigames.Count!=0 && acti==false && listTransform.Count!=0 & NombreDeMiniGames!=0)
       {
        nbr=Random.Range(0, minigames.Count);
        ActiveMiniGame(minigames[nbr],listTransform[0]);
        minigamesobso.Add(minigames[nbr]);
-            
+       NombreDeMiniGames -= 1;
        minigames.Remove(minigames[nbr]);
        listTransformObso.Add(listTransform[0]);
       listTransform.Remove(listTransform[0]);
       counter = CounterBetween;
       }
+      if(counterManche<=0)
+        {
+            Nextlevel(NextManche);
+        }
         counter -= Time.deltaTime;
+        if(NombreDeMiniGames<=0)
+        {
+        counterManche -= Time.deltaTime;
+        }
     }
 
+    void Nextlevel(string manche)
+    {
+        SceneManager.LoadScene(manche);
+    }
     void ActiveMiniGame(GameObject game,Transform list)
     {
         GameObject mini = Instantiate(game, list.position, transform.rotation);

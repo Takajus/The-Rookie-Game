@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: "Assets/R\xE9mi/Manche 1/Manche 1 TeamVague.unity"
+    guid: 1aebaceeaa2760444a47a9553fd72408
+  - enabled: 1
+    path: "Assets/R\xE9mi/Manche 1/Manche 2 TeamVague.unity"
+    guid: 94ad5350ab044e241bc6fc1ddebf1e75
   m_configObjects: {}

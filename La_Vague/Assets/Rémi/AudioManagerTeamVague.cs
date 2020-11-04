@@ -20,8 +20,8 @@ public class AudioManagerTeamVague : MonoBehaviour
 		}
 		else
 		{
-			instance = this;
-			DontDestroyOnLoad(gameObject);
+			/*instance = this;
+			DontDestroyOnLoad(gameObject);*/
 		}
 
 		foreach (SoundTeamVague s in sounds)
