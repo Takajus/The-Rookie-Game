@@ -177,7 +177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396928992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.26, y: -3.3, z: 0}
+  m_LocalPosition: {x: -0.26, y: -2.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -218,11 +218,11 @@ MonoBehaviour:
   - {fileID: 8145414298756410407, guid: 001b5b48740d9104ca223f5ff9b973a4, type: 3}
   minigamesobso: []
   acti: 0
-  NombreDeMiniGames: 3
+  NombreDeMiniGames: 10
   nbr: 0
   counter: 3
-  CounterBetween: 5
-  CounterFinManche: 15
+  CounterBetween: 3
+  CounterFinManche: 2
   NextManche: Manche 1 TeamVague
   listTransform:
   - {fileID: 330589911}
