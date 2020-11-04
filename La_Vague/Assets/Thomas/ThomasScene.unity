@@ -755,30 +755,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507979857}
   m_CullTransparentMesh: 0
---- !u!1 &543348052 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5759095948537319749, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-  m_PrefabInstance: {fileID: 1642867354}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &543348053
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543348052}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7b644ef40a34bd24397878462276e37c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &631964795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948379689759, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 2383943718
+      value: 4279769126
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1297,37 +1273,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319748, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.13927887
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319748, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1392789
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319748, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1392789
-      objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319749, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
       propertyPath: m_Name
       value: Touche Game 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319751, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319751, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319751, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759095948537319751, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
-      propertyPath: m_Color.a
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac8fe465604c74749bd0740728ef28e5, type: 3}
