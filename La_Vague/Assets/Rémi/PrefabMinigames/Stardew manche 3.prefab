@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 8145414298756410406}
   - component: {fileID: 4318803702130576889}
   m_Layer: 0
-  m_Name: StardewGame
+  m_Name: Stardew manche 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,10 +817,10 @@ MonoBehaviour:
   touche1: {fileID: 6464676478602910705}
   touche2: {fileID: 6464676478602910705}
   Control: {fileID: 6682453414534229316}
-  listtouche: 680000006a0000006a00000068000000
+  listtouche: 76000000620000007600000062000000
   set: 0
   GameManage: {fileID: 0}
-  TimeMiniGame: 10
+  TimeMiniGame: 11
   pref: {fileID: 8145414298756410407}
 --- !u!1 &8145414299005330552
 GameObject:
@@ -1058,9 +1058,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8145414299218688866}
-  force: 3
+  force: 1
   control: {fileID: 6682453414534229316}
   dec: {fileID: 7512942738396263245}
+  gravity: 0.2
 --- !u!50 &8145414299218688866
 Rigidbody2D:
   serializedVersion: 4

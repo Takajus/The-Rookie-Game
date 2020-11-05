@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 3670939514061344956}
   - component: {fileID: 3670939514061344957}
   m_Layer: 0
-  m_Name: La boule alexandre
+  m_Name: Jeu boule manche 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -996,10 +996,10 @@ MonoBehaviour:
   touche1: {fileID: 3670939512580848692}
   touche2: {fileID: 6283438101409181196}
   Control: {fileID: 3670939514165635230}
-  listtouche: 77000000710000006300000064000000
+  listtouche: 61000000710000007a00000073000000
   set: 1
   GameManage: {fileID: 0}
-  TimeMiniGame: 10
+  TimeMiniGame: 15
   pref: {fileID: 3670939514061344959}
 --- !u!1 &3670939514086851453
 GameObject:
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4e3c52f04e8ea748b3ecb1cab726209, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.35
+  speed: 0.4
   control: {fileID: 3670939514165635230}
 --- !u!61 &3670939514165635939
 BoxCollider2D:
@@ -1419,7 +1419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901031, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901031, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_Mass
@@ -1517,6 +1517,10 @@ PrefabInstance:
       propertyPath: dec
       value: 
       objectReference: {fileID: 5066345599847477589}
+    - target: {fileID: 6161038852129901035, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
+      propertyPath: gravity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
 --- !u!4 &7453919419336860345 stripped

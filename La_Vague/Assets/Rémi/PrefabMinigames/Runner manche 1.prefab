@@ -716,7 +716,7 @@ GameObject:
   - component: {fileID: 5689192361208222117}
   - component: {fileID: 5689192361208222116}
   m_Layer: 0
-  m_Name: RunnerTopRight
+  m_Name: Runner manche 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -760,7 +760,7 @@ MonoBehaviour:
   listtouche: 6d0000006c0000006b0000006a000000700000006f0000006900000075000000
   set: 0
   GameManage: {fileID: 0}
-  TimeMiniGame: 10
+  TimeMiniGame: 11
   pref: {fileID: 5689192361208222118}
 --- !u!1 &5689192361319334917
 GameObject:
@@ -1070,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.38
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1143,7 +1143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1
+      value: -2.33
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1357,7 +1357,7 @@ PrefabInstance:
       objectReference: {fileID: 5689192361641207638}
     - target: {fileID: 7696086465950433220, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
       propertyPath: speed
-      value: -1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7696086465950433220, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
       propertyPath: dec
@@ -1533,7 +1533,7 @@ PrefabInstance:
       objectReference: {fileID: 5689192361641207638}
     - target: {fileID: 7696086465950433220, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
       propertyPath: speed
-      value: -1
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7696086465950433220, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
       propertyPath: dec
@@ -1687,6 +1687,10 @@ PrefabInstance:
       propertyPath: dec
       value: 
       objectReference: {fileID: 3650039487043402662}
+    - target: {fileID: 7696086465950433220, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
+      propertyPath: speed
+      value: -0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ceb10f09b8517f643b3ca70b3000bea4, type: 3}
 --- !u!4 &6377961830820661390 stripped

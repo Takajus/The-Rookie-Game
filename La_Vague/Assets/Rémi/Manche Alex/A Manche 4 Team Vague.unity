@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330589910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -0.2, z: 0}
+  m_LocalPosition: {x: -4.9, y: 2.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -177,7 +177,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 396928992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.07, y: -2.41, z: 0}
+  m_LocalPosition: {x: -5.16, y: -3.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -213,18 +213,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigames:
-  - {fileID: 3670939514061344959, guid: 95cf21556b4bbf146a1fe426c0cc6ccd, type: 3}
-  - {fileID: 5689192361208222118, guid: 6f301b91f072a7d4c9461d6c3f1d1282, type: 3}
+  - {fileID: 3670939514061344959, guid: b3797c2bc084f3046b88969a801a3ac6, type: 3}
+  - {fileID: 5689192361208222118, guid: c995c76f594188b47af3cededa3b6f5d, type: 3}
+  - {fileID: 8145414298756410407, guid: 30ab383d45ed90a408bb6e5fc598d276, type: 3}
+  - {fileID: 2293969172235386269, guid: c23fcbff1c495ff4996bcb97bd62d1e5, type: 3}
   minigamesobso: []
   acti: 0
-  NombreDeMiniGames: 2
+  NombreDeMiniGames: 8
   nbr: 0
   counter: 3
-  CounterBetween: 9
-  CounterFinManche: 5
-  NextManche: Manche 2 TeamVague
+  CounterBetween: 1
+  CounterFinManche: 3
+  NextManche: Manche 1 TeamVague
   listTransform:
   - {fileID: 330589911}
+  - {fileID: 1426753713}
+  - {fileID: 396928993}
+  - {fileID: 1359305126}
   listTransformObso: []
 --- !u!4 &409641157
 Transform:
@@ -239,6 +244,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1359305125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1359305126}
+  m_Layer: 0
+  m_Name: TransformMiniGames (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1359305126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359305125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.1, y: -3.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426753712
 GameObject:
@@ -264,7 +299,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426753712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.68, y: 1.27, z: 0}
+  m_LocalPosition: {x: 6.37, y: 2.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -588,7 +623,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.2788887
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
