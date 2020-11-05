@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 3670939514061344956}
   - component: {fileID: 3670939514061344957}
   m_Layer: 0
-  m_Name: La boule alexandre
+  m_Name: Jeu boule manche 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -999,7 +999,7 @@ MonoBehaviour:
   listtouche: 61000000710000007a0000007300000065000000640000007200000066000000
   set: 1
   GameManage: {fileID: 0}
-  TimeMiniGame: 10
+  TimeMiniGame: 11
   pref: {fileID: 3670939514061344959}
 --- !u!1 &3670939514086851453
 GameObject:
@@ -1419,7 +1419,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901031, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901031, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_Mass
