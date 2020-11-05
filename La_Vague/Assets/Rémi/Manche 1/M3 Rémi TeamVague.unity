@@ -385,8 +385,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934275360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.2, y: -0.13, z: 9.65}
-  m_LocalScale: {x: 28.047281, y: 28.047281, z: 28.047281}
+  m_LocalPosition: {x: 0.42, y: -0.13, z: 9.65}
+  m_LocalScale: {x: 31.05396, y: 28.047281, z: 28.047281}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -746,7 +746,7 @@ MonoBehaviour:
   counter: 3
   CounterBetween: 5
   CounterFinManche: 10
-  NextManche: Manche 1 TeamVague
+  NextManche: "M4 R\xE9mi TeamVague"
   listTransform:
   - {fileID: 2090902908}
   - {fileID: 1319502927}
