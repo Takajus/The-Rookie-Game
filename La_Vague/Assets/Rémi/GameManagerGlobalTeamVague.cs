@@ -20,6 +20,7 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
     public List<Transform> listTransform;
     [HideInInspector]
     public List<Transform> listTransformObso;
+    
     void Start()
     {
         
@@ -33,7 +34,8 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
        nbr=Random.Range(0, minigames.Count);
        ActiveMiniGame(minigames[nbr],listTransform[0]);
        minigamesobso.Add(minigames[nbr]);
-       NombreDeMiniGames -= 1;
+            listTransform[0].GetComponent<TransformLinkBackTeamVague>().Applique(minigames[nbr].GetComponent<MiniGameTeamVague>().sprite);
+            NombreDeMiniGames -= 1;
        minigames.Remove(minigames[nbr]);
        listTransformObso.Add(listTransform[0]);
       listTransform.Remove(listTransform[0]);
@@ -66,6 +68,7 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
         minigames.Add(minigamesobso[0]);
         minigamesobso.Remove(minigamesobso[0]);
         listTransform.Add(listTransformObso[0]);
+        listTransformObso[0].GetComponent<TransformLinkBackTeamVague>().Remove();
         listTransformObso.Remove(listTransformObso[0]);
     }
 }

@@ -14,7 +14,7 @@ public class MiniGameTeamVague : MonoBehaviour
     public GameObject GameManage;
     public float TimeMiniGame;
     public GameObject pref;
-
+    public Sprite sprite;
     void Start()
     {
         
