@@ -757,7 +757,7 @@ MonoBehaviour:
   touche1: {fileID: 7864862439824186825}
   touche2: {fileID: 9033312273309525967}
   Control: {fileID: 5689192360030653838}
-  listtouche: 7a000000730000007300000078000000
+  listtouche: 6d0000006c0000006b0000006a000000700000006f0000006900000075000000
   set: 0
   GameManage: {fileID: 0}
   TimeMiniGame: 10
@@ -1070,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.35
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1139,7 +1139,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.34
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.y
