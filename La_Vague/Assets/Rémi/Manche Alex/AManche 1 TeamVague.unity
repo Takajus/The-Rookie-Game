@@ -213,9 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigames:
-  - {fileID: 3670939514061344959, guid: a18ccd1f1dc82cd43b799a2c7b9fcde2, type: 3}
-  - {fileID: 5689192361208222118, guid: 645f417a017ab304ca4689597964f2cb, type: 3}
-  - {fileID: 8145414298756410407, guid: 001b5b48740d9104ca223f5ff9b973a4, type: 3}
+  - {fileID: 3670939514061344959, guid: 95cf21556b4bbf146a1fe426c0cc6ccd, type: 3}
   minigamesobso: []
   acti: 0
   NombreDeMiniGames: 1
