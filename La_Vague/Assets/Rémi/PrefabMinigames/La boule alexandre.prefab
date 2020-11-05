@@ -996,7 +996,7 @@ MonoBehaviour:
   touche1: {fileID: 3670939512580848692}
   touche2: {fileID: 6283438101409181196}
   Control: {fileID: 3670939514165635230}
-  listtouche: 77000000710000006300000064000000
+  listtouche: 61000000710000007a0000007300000065000000640000007200000066000000
   set: 1
   GameManage: {fileID: 0}
   TimeMiniGame: 10
@@ -1026,7 +1026,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3670939514086851453}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.097894646, w: 0.9951968}
   m_LocalPosition: {x: -0.94000006, y: -0.03999996, z: 0}
   m_LocalScale: {x: 0.71939796, y: 0.71939796, z: 0.71939784}
   m_Children: []
@@ -1423,7 +1423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901031, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 6161038852129901032, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1519,7 +1519,7 @@ PrefabInstance:
       objectReference: {fileID: 5066345599847477589}
     - target: {fileID: 6161038852129901035, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}
       propertyPath: gravity
-      value: 0.35
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8404c240753fd624b9ea799d149bd6d9, type: 3}

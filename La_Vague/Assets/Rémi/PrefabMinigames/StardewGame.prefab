@@ -817,7 +817,7 @@ MonoBehaviour:
   touche1: {fileID: 6464676478602910705}
   touche2: {fileID: 6464676478602910705}
   Control: {fileID: 6682453414534229316}
-  listtouche: 680000006a0000006a00000068000000
+  listtouche: 76000000620000007600000062000000
   set: 0
   GameManage: {fileID: 0}
   TimeMiniGame: 10
@@ -1061,6 +1061,7 @@ MonoBehaviour:
   force: 3
   control: {fileID: 6682453414534229316}
   dec: {fileID: 7512942738396263245}
+  gravity: 1
 --- !u!50 &8145414299218688866
 Rigidbody2D:
   serializedVersion: 4
