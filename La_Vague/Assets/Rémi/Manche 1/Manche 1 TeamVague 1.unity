@@ -838,7 +838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
       propertyPath: naame
-      value: "M2 R\xE9mi TeamVague"
+      value: Victory TeamVague
       objectReference: {fileID: 0}
     - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
       propertyPath: sounds.Array.data[0].name
