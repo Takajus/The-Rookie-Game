@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 3670939514061344956}
   - component: {fileID: 3670939514061344957}
   m_Layer: 0
-  m_Name: Jeu boule manche 1
+  m_Name: Jeu boule manche 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -996,7 +996,7 @@ MonoBehaviour:
   touche1: {fileID: 3670939512580848692}
   touche2: {fileID: 6283438101409181196}
   Control: {fileID: 3670939514165635230}
-  listtouche: 61000000710000007a00000073000000
+  listtouche: 61000000710000007a000000730000006500000064000000
   set: 1
   GameManage: {fileID: 0}
   TimeMiniGame: 15

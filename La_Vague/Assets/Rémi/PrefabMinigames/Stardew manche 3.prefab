@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 8145414298756410406}
   - component: {fileID: 4318803702130576889}
   m_Layer: 0
-  m_Name: Stardew manche 1
+  m_Name: Stardew manche 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   listtouche: 76000000620000007600000062000000
   set: 0
   GameManage: {fileID: 0}
-  TimeMiniGame: 15
+  TimeMiniGame: 11
   pref: {fileID: 8145414298756410407}
 --- !u!1 &8145414299005330552
 GameObject:
