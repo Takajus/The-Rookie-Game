@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BouleTeamVague : MonoBehaviour
 {
@@ -41,7 +42,9 @@ public class BouleTeamVague : MonoBehaviour
         if(collision.CompareTag("DeathTrigger"))
         {
             Createbaby();
-        }else if(collision.CompareTag("ChangeColor"))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+        else if(collision.CompareTag("ChangeColor"))
         {
             fond.GetComponent<SpriteRenderer>().sprite = collision.GetComponent<SpriteRenderer>().sprite;
           

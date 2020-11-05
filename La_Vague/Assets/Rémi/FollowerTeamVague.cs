@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FollowerTeamVague : MonoBehaviour
 {
@@ -28,13 +29,7 @@ public class FollowerTeamVague : MonoBehaviour
 
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.CompareTag("DeathTrigger"))
-        {
-            Debug.Log("mort");
-        }
-    }
+   
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,6 +37,10 @@ public class FollowerTeamVague : MonoBehaviour
         if(collision.CompareTag("ChangeColor"))
         {
           GetComponent<SpriteRenderer>().sprite = collision.GetComponent<SpriteRenderer>().sprite;
+        }
+        else if (collision.CompareTag("DeathTrigger"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

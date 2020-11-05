@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControllerTeamVague : MonoBehaviour
 {
@@ -47,7 +48,7 @@ public class PlayerControllerTeamVague : MonoBehaviour
     {
         if(collision.CompareTag("DeathTrigger"))
         {
-            Debug.Log("trop nul la honte");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

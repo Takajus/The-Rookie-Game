@@ -875,8 +875,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigames:
-  - {fileID: 8145414298756410407, guid: bd4954987d2b05c4889f027532d72c61, type: 3}
-  - {fileID: 3670939514061344959, guid: a18ccd1f1dc82cd43b799a2c7b9fcde2, type: 3}
+  - {fileID: 3670939514061344959, guid: 953b69450e547884c909ebd75ffd188a, type: 3}
+  - {fileID: 5689192361208222118, guid: 708a238cab4f24d4c8ee523ed4296c68, type: 3}
+  - {fileID: 8145414298756410407, guid: 6426a054f5d4028488e5691b5504617b, type: 3}
   minigamesobso: []
   acti: 0
   NombreDeMiniGames: 2
@@ -884,7 +885,7 @@ MonoBehaviour:
   counter: 3
   CounterBetween: 5
   CounterFinManche: 10
-  NextManche: Manche 2 TeamVague
+  NextManche: "M3 R\xE9mi TeamVague"
   listTransform:
   - {fileID: 60771415}
   - {fileID: 853408576}

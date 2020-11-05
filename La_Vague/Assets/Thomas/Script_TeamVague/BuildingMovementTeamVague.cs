@@ -31,7 +31,7 @@ public class BuildingMovementTeamVague : MonoBehaviour
         {
             transform.Translate(moveUp * speed * Time.deltaTime);
         }
-        else if (Input.GetKey(control.down))
+        else if (!Input.GetKey(control.up))
         {
             transform.Translate(moveDown * speed * Time.deltaTime);
         }
