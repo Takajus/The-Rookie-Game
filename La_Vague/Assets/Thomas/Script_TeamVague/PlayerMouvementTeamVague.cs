@@ -13,7 +13,7 @@ public class PlayerMouvementTeamVague : MonoBehaviour
     //public float wallCheckRaduis;
     public Vector2 wallCheckRadius;
     public LayerMask whatIsStoped;
-
+    public DecomptTeamVague dec;
     void Start()
     {
         GameObject gameController = GameObject.FindGameObjectWithTag("GameController");
@@ -24,7 +24,7 @@ public class PlayerMouvementTeamVague : MonoBehaviour
 
     void Update()
     {
-        if(!isStoped)
+        if(!isStoped && dec.last<=0)
         {
             transform.Translate(GameManager.moveVector * GameManager.moveSpeed * Time.deltaTime);
         }

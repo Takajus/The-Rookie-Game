@@ -2,6 +2,7 @@
 using UnityEngine.Audio;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManagerTeamVague : MonoBehaviour
 {
@@ -12,6 +13,20 @@ public class AudioManagerTeamVague : MonoBehaviour
 
 	public SoundTeamVague[] sounds;
 
+	public string naame;
+	public void Start()
+	{
+		Play("Musicyi");
+	}
+
+	public void Update()
+	{
+		if (SceneManager.GetActiveScene().name == naame)
+		{
+			Destroy(gameObject);
+		}
+	}
+
 	void Awake()
 	{
 		if (instance != null)
@@ -20,8 +35,8 @@ public class AudioManagerTeamVague : MonoBehaviour
 		}
 		else
 		{
-			/*instance = this;
-			DontDestroyOnLoad(gameObject);*/
+			instance = this;
+			DontDestroyOnLoad(gameObject);
 		}
 
 		foreach (SoundTeamVague s in sounds)

@@ -197,7 +197,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minigames:
-  - {fileID: 8145414298756410407, guid: bd4954987d2b05c4889f027532d72c61, type: 3}
+  - {fileID: 8145414298756410407, guid: 8d4dc28895b274243af0d97070657e12, type: 3}
+  - {fileID: 5689192361208222118, guid: cca0815b8cc686148b95e908301c9288, type: 3}
+  - {fileID: 3670939514061344959, guid: 342f332cdeab92f4aae3038b18d0abef, type: 3}
+  - {fileID: 7805058876923294907, guid: ac166b75c470d2a4bb3d1062fb7f0a0b, type: 3}
   minigamesobso: []
   acti: 0
   NombreDeMiniGames: 1
@@ -832,6 +835,34 @@ PrefabInstance:
     - target: {fileID: 7257151054887957606, guid: fb78eee17361990449db576bd606b882, type: 3}
       propertyPath: m_Name
       value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: naame
+      value: "M2 R\xE9mi TeamVague"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: Musicyi
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e942ac5bcdbb64449b66d657f60e9de, type: 3}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.272
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].pitchVariance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].volumeVariance
+      value: 0.119
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257151054887957607, guid: fb78eee17361990449db576bd606b882, type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb78eee17361990449db576bd606b882, type: 3}

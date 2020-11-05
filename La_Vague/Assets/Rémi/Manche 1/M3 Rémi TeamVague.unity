@@ -739,6 +739,7 @@ MonoBehaviour:
   - {fileID: 3670939514061344959, guid: 953b69450e547884c909ebd75ffd188a, type: 3}
   - {fileID: 8145414298756410407, guid: 6426a054f5d4028488e5691b5504617b, type: 3}
   - {fileID: 5689192361208222118, guid: 708a238cab4f24d4c8ee523ed4296c68, type: 3}
+  - {fileID: 7805058876923294907, guid: ac166b75c470d2a4bb3d1062fb7f0a0b, type: 3}
   minigamesobso: []
   acti: 0
   NombreDeMiniGames: 3
