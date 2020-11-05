@@ -18,6 +18,7 @@ public class BuildingMovementTeamVague : MonoBehaviour
 
     [HideInInspector]
     public Vector3 building3;
+    public ControlToucheTeamVague control;
 
     private void Start()
     {
@@ -26,11 +27,11 @@ public class BuildingMovementTeamVague : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetKey(control.up))
         {
             transform.Translate(moveUp * speed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.Space))
+        else if (Input.GetKey(control.down))
         {
             transform.Translate(moveDown * speed * Time.deltaTime);
         }
