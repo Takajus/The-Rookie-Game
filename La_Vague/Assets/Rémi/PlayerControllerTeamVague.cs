@@ -18,12 +18,12 @@ public class PlayerControllerTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(control.up))
+        if (Input.GetKeyDown(control.down))
         {
             nbr += 1;
             Move(nbr);
         }
-        else if (Input.GetKeyDown(control.down))
+        else if (Input.GetKeyDown(control.up))
         {
             nbr -= 1;
             Move(nbr);
