@@ -626,7 +626,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.08, y: 0.14}
+  m_AnchoredPosition: {x: 5.89, y: -4.63}
   m_SizeDelta: {x: 412, y: 232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3106012154600731017
@@ -723,8 +723,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.5, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -14.68, y: 21.42}
+  m_SizeDelta: {x: -49.987183, y: -106.05431}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6773957154460487750
 CanvasRenderer:
@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 8145414298756410406}
   - component: {fileID: 4318803702130576889}
   m_Layer: 0
-  m_Name: StardewGame
+  m_Name: StardewGame 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -849,7 +849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145414299005330552}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.4998, z: 0}
+  m_LocalPosition: {x: 5.91, y: -6.2698, z: 0}
   m_LocalScale: {x: 1, y: 3.8119, z: 1}
   m_Children:
   - {fileID: 920498593927168541}
@@ -988,7 +988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145414299218688868}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.24, z: 0}
+  m_LocalPosition: {x: 4.81, y: -5.0099998, z: 0}
   m_LocalScale: {x: 0.11579, y: 0.11579, z: 0.11579}
   m_Children: []
   m_Father: {fileID: 8145414298756410406}
@@ -1148,7 +1148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145414299948126728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8451977, y: -2.5722265, z: -50.353104}
+  m_LocalPosition: {x: 5.6551976, y: -7.3422265, z: -50.353104}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8145414298756410406}
@@ -1204,7 +1204,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145414300272916414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.26, y: -2.61, z: 0}
+  m_LocalPosition: {x: 6.0699997, y: -7.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8145414298756410406}
@@ -1234,7 +1234,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8145414300599140678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.26, y: 1.76, z: 0}
+  m_LocalPosition: {x: 6.0699997, y: -3.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8145414298756410406}
@@ -1794,11 +1794,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.71
+      value: 4.1
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.87
+      value: -6.64
       objectReference: {fileID: 0}
     - target: {fileID: 5759095948537319748, guid: e9519ba792e0cde489cbd30be8b8b367, type: 3}
       propertyPath: m_LocalPosition.z
