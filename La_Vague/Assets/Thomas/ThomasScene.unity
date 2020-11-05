@@ -490,6 +490,8 @@ MonoBehaviour:
   transmax: {fileID: 1997389803}
   transmin: {fileID: 184037723}
   state: 0
+  timeLeft: 15
+  currentTime: 0
 --- !u!4 &254794484
 Transform:
   m_ObjectHideFlags: 0

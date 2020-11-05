@@ -6,10 +6,12 @@ public class LevelLoopTeamVague : MonoBehaviour
 {
     public GamePlayerManagerTeamVague gameMana;
 
+
     private void Start()
     {
         gameMana = FindObjectOfType<GamePlayerManagerTeamVague>();
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
