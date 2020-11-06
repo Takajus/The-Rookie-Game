@@ -308,7 +308,7 @@ MonoBehaviour:
   nbr: 0
   counter: 3
   CounterBetween: 7
-  CounterFinManche: 16
+  CounterFinManche: 14
   NextManche: M3 TeamVague
   listTransform:
   - {fileID: 1441965123}
