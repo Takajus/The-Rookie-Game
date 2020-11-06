@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88e63e02b6a39de4d8a39a4176b0a65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  naame: M1 TeamVague
+  naame: SalleArcade
 --- !u!1 &1164165510
 GameObject:
   m_ObjectHideFlags: 0
