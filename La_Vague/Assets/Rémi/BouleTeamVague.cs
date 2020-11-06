@@ -12,6 +12,7 @@ public class BouleTeamVague : MonoBehaviour
     public GameObject fond;
     public DecomptTeamVague dec;
     public float gravity;
+    public bool fin;
     void Start()
     {
         
@@ -42,7 +43,15 @@ public class BouleTeamVague : MonoBehaviour
         if(collision.CompareTag("DeathTrigger"))
         {
             Createbaby();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if(fin)
+            {
+                SceneManager.LoadScene("ScoringTeamVague");
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            
         }
         else if(collision.CompareTag("ChangeColor"))
         {

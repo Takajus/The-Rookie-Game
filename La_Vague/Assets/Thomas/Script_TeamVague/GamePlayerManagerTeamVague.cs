@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GamePlayerManagerTeamVague : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class GamePlayerManagerTeamVague : MonoBehaviour
     public float timeLeft = 15.0f;
     [SerializeField]
     private float currentTime;
+    public bool fin;
 
 
 
@@ -33,8 +35,14 @@ public class GamePlayerManagerTeamVague : MonoBehaviour
             currentTime -= Time.deltaTime;
             if(currentTime <= 0)
             {
-                Debug.Log("You Fail !");
-                //-------------Lose code----------------
+                if (fin)
+                {
+                    SceneManager.LoadScene("ScoringTeamVague");
+                }
+                else
+                {
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                }
             }
         }
 

@@ -15,9 +15,12 @@ public class MiniGameTeamVague : MonoBehaviour
     public float TimeMiniGame;
     public GameObject pref;
     public Sprite sprite;
+    public int scoring;
+  
+    public AudioManagerTeamVague audioo;
     void Start()
     {
-        
+        audioo = GameObject.Find("SoundManagerTeamVague").GetComponent<AudioManagerTeamVague>();
     }
 
     // Update is called once per frame
@@ -27,6 +30,10 @@ public class MiniGameTeamVague : MonoBehaviour
         if(TimeMiniGame<=0)
         {
             GameManage.GetComponent<GameManagerGlobalTeamVague>().ObsoToMini();
+            if(scoring!=0)
+            {
+                audioo.Score += scoring;
+            }
             Destroy(gameObject);
         }
     }

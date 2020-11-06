@@ -14,6 +14,7 @@ public class AudioManagerTeamVague : MonoBehaviour
 	public SoundTeamVague[] sounds;
 
 	public string naame;
+	public int Score;
 	public void Start()
 	{
 		Play("Musicyi");

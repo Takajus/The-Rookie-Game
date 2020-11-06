@@ -11,6 +11,7 @@ public class FollowerTeamVague : MonoBehaviour
     public ControlToucheTeamVague control;
     public DecomptTeamVague dec;
     public float gravity;
+    public bool fin;
     
  
     // Update is called once per frame
@@ -40,7 +41,14 @@ public class FollowerTeamVague : MonoBehaviour
         }
         else if (collision.CompareTag("DeathTrigger"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (fin)
+            {
+                SceneManager.LoadScene("ScoringTeamVague");
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 

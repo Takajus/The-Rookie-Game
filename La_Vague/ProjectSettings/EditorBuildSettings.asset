@@ -6,30 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: "Assets/R\xE9mi/Manche 1/Manche 1 TeamVague 1.unity"
-    guid: c0e31c4017d578f4197e7c7fcb659129
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche Alex/AManche 1 TeamVague.unity"
-    guid: 733209c2776459f49908443006212739
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche Alex/AManche 2 TeamVague.unity"
-    guid: 7cb470c2bb789ea428f82f3c5941e301
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche Alex/AManche 3 TeamVague.unity"
-    guid: 06609429f3ba9234492877d9ba397f37
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche 1/M2 R\xE9mi TeamVague.unity"
-    guid: 280c2634331b5fb4aab274da8ef0244c
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche 1/M3 R\xE9mi TeamVague.unity"
-    guid: 9290d892ecb124f488a83a2c96fedc81
-  - enabled: 1
-    path: "Assets/R\xE9mi/Manche 1/M4 R\xE9mi TeamVague.unity"
-    guid: 706ba876acf60994d809e7b7be787541
+    path: Assets/SceneFinalTeamVague/M1 TeamVague.unity
+    guid: cd6ec15f904e06b46b076e5c43209bfa
   - enabled: 1
     path: "Assets/R\xE9mi/Manche 1/VictoryTeamVague.unity"
     guid: deeb05165da7c0e439071ea0c80f477f
+  - enabled: 1
+    path: Assets/SceneFinalTeamVague/M2 TeamVague.unity
+    guid: 0ae27274fec00a549920dd5e14bfc840
+  - enabled: 1
+    path: Assets/SceneFinalTeamVague/M3 TeamVague.unity
+    guid: fa5e2a0078023054ca1d87d7d5457da7
+  - enabled: 1
+    path: Assets/SceneFinalTeamVague/M4 TeamVague.unity
+    guid: 5482468d1cc704044aa1290e36e826aa
+  - enabled: 1
+    path: Assets/SceneFinalTeamVague/ScoringTeamVague.unity
+    guid: f170dadc7c085c5479537bf6fc9187cb
   m_configObjects: {}

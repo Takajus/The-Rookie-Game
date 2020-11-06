@@ -10,6 +10,7 @@ public class PlayerControllerTeamVague : MonoBehaviour
     public int nbr;
     public int nbrmax;
     public ControlToucheTeamVague control;
+    public bool fin;
    
     void Start()
     {
@@ -28,6 +29,7 @@ public class PlayerControllerTeamVague : MonoBehaviour
         {
             nbr -= 1;
             Move(nbr);
+
         }
     }
 
@@ -48,7 +50,14 @@ public class PlayerControllerTeamVague : MonoBehaviour
     {
         if(collision.CompareTag("DeathTrigger"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (fin)
+            {
+                SceneManager.LoadScene("ScoringTeamVague");
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 

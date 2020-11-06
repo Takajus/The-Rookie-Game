@@ -21,6 +21,7 @@ public class GameManagerGlobalTeamVague : MonoBehaviour
     [HideInInspector]
     public List<Transform> listTransformObso;
     
+    
     void Start()
     {
         

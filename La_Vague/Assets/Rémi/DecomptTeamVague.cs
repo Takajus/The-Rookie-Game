@@ -22,7 +22,7 @@ public class DecomptTeamVague : MonoBehaviour
         if(last>decompt)
         {
             last -= 1;
-            text.text = last.ToString();
+            text.text = "";
         }
 
         if(last<=0)
