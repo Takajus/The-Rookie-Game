@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/SceneFinalTeamVague/LaunchTeamVague.unity
+    guid: 55353f8c075282b4fa86a6ddeee28584
+  - enabled: 1
     path: Assets/SceneFinalTeamVague/M1 TeamVague.unity
     guid: cd6ec15f904e06b46b076e5c43209bfa
   - enabled: 0
