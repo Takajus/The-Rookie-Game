@@ -16,6 +16,10 @@ public class ScoreFinalTeamVague : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Audioo!=null)
+        {
+
         text.text = "Votre Score: " + Audioo.GetComponent<AudioManagerTeamVague>().Score.ToString();
+        }
     }
 }
